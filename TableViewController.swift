@@ -43,6 +43,7 @@ class TableViewController: UITableViewController {
         if todo.important {
             todo.name = "❗️" + todo.name
         }
+        //Hello there
         cell.textLabel?.text = todo.name
 
         // Configure the cell...
